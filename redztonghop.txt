@@ -1,0 +1,171 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "thế anh",
+         Animation = "quá đẹp trai"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is8 incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=100312515441815",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script tổng hợp"})
+     local Tab2o = MakeTab({Name = "Script xịn"})
+     local Tab3o = MakeTab({Name = "fix lag"})
+local Tab4o = MakeTab({Name = "Script blue lock"})
+local Tab5o = MakeTab({Name = "Script  bóng tử thần"})
+local Tab6o = MakeTab({Name = "Script trồng một vườn cây"})
+
+     
+     
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "vinh12 V",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/C/refs/heads/main/V"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "tuananhIOS",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
+	end
+  })
+  AddButton(Tab1o, {
+     Name = "huysadd",
+    Callback = function()
+    Loadstring(game:HttpGet("https://raw.githubusercontent.com/HuySadd/Huy-Sad-Ch-nh-Th-c/refs/heads/main/HuysadChinhThuc.lua"))()
+    end
+   })
+   AddButton(Tab1o, {
+     Name = "sóiv3",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Soirobloxgm/Soirobloxv3/refs/heads/main/AllscriptTonghop.lua"))()
+    end
+   })
+   AddButton(Tab1o, {
+     Name = "Tboy",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/AllScriptBF.txt"))()
+    end
+  })
+  AddButton(Tab1o, {
+     Name = "sóiv1",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Soirobloxgm/SoirobloxV1/refs/heads/main/AllscriptTonghop.txt"))()
+    end
+  })
+  AddButton(Tab1o, {
+     Name = "hoa anh đào",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YumCoding-Alt/StarlightHub/refs/heads/main/SkidConCacBaMay.txt"))()
+    end
+  })
+  AddButton(Tab1o, {
+     Name = "Rubu2k",
+    Callback = function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/Rubutonghop.txt")()
+    end
+  })
+  AddButton(Tab1o, {
+     Name = "vinh cc",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/zzz/refs/heads/main/cc"))()
+    end
+  })
+  AddButton(Tab2o, {
+     Name = "banana ",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+    end
+  })
+  AddButton(Tab2o, {
+     Name = "maru",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+    end
+  })
+  AddButton(Tab3o, {
+     Name = "fix lag",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+    end
+  })
+    AddButton(Tab4o, {
+     Name = "bloe lock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EnesXVC/Games-Scripts/main/Blue-Lock-Fearise-Hub"))()
+end
+  })
+    
+  AddButton(Tab5o, {
+     Name = "autuclick",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/54b11727a99567356ad9ec3a8555b675.lua"))()
+end
+  })
+AddButton(Tab1o, {
+     Name = "vinh",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/zingmod/refs/heads/main/zingmod"))()
+end
+  })
+AddButton(Tab1o, {
+     Name = "Tboy",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/tboyroblox/refs/heads/main/AllScriptFix.lua"))()
+end
+  })
+AddButton(Tab1o, {
+     Name = "huy",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy-roy/GiaHuy.tonghop/refs/heads/main/GiaHuy.Add"))()
+end
+  })
+AddButton(Tab1o, {
+     Name = " ko biết ",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCrusedOne/WumpsCrusedOne/refs/heads/main/TheWumpsRoblox.txt"))()
+end
+  })
+AddButton(Tab1o, {
+     Name = "khá xịn ",
+    Callback = function()
+loadstring(game:HttpGet("https://isnahamzahpastebin.tech/loader/isna_scripthub_30"))()
+end
+  })
+AddButton(Tab6o, {
+     Name = "he ",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NittarPP/PhotonScript/refs/heads/main/Loading/Loading.lua"))()
+end
+})
