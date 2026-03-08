@@ -3053,11 +3053,11 @@ function sigmalib:MakeWindow(Configs)
             Window:Minimize()
         end)
         
-        local Flag = Instance.new("TextLabel")
+        local Flag = Instance.new("ImageLabel")
         Flag.Name = "VNFlagIcon"
         Flag.Parent = ToggleButton
         Flag.BackgroundTransparency = 1
-        Flag.Text = "OnTop"
+        Flag.Image = "rbxassetid://90723031696932"
         Flag.Size = UDim2.fromOffset(28, 18)
         Flag.AnchorPoint = Vector2.new(0.5, 0.5)
         Flag.Position = UDim2.new(1, -2, 0, 2)
