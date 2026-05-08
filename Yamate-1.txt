@@ -1,17 +1,18 @@
+local Plr = game.Players.LocalPlayer
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
 local function JoinTeam()
     local targetTeam = getgenv().Team or "Marines"
 
-    if not Plr.Team or (Plr.Team.Name ~= "Marines" and Plr.Team.Name ~= "Pirates") then
+    if not Plr.Team then
         pcall(function()
-            ReplicatedStorage
-                :WaitForChild("Remotes")
-                :WaitForChild("CommF_")
-                :InvokeServer("SetTeam", targetTeam)
+            ReplicatedStorage.Remotes.CommF_:InvokeServer("SetTeam", targetTeam)
         end)
     end
 end
 
 JoinTeam()
+
 local Y = game.Players;
 local d = Y.LocalPlayer;
 local R = d.Character.HumanoidRootPart;
